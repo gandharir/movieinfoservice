@@ -31,6 +31,11 @@ public class MovieInfoService {
     movie3.setHero("Ram");
     movie3.setReleaseDate(LocalDate.of(2022,1,1));
     movie3.setRating(5.0);
-    return List.of(movie1, movie2, movie3);
+    Movie movie4 = new Movie();
+    movie4.setName("Vikram");
+    movie4.setHero("Kamal");
+    movie4.setReleaseDate(LocalDate.of(2022,1,1));
+    movie4.setRating(6.0);
+    return List.of(movie1, movie2, movie3, movie4);
   }
 }
